@@ -8,14 +8,19 @@
   font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
+.card {
+  background: #0d0d0d;
+}
 body {
   background: #434343;
 }
 p,
-span {
+span,
+li {
   color: #d3d2d2;
 }
 /* common css end */
+
 /* banner section start */
 .banner-wrapper {
   background: url(../images/banner.jpg);
@@ -45,3 +50,34 @@ span {
   letter-spacing: -0.02em;
   color: #ffffff;
 }
+/* banner section end */
+
+/* palayer section start */
+.player-wrapper .card .card-body p span {
+  font-size: 13px;
+}
+.my-player {
+  background: #0d0d0d;
+  border-radius: 10px;
+  height: 319px;
+  margin-bottom: 14px;
+}
+.my-player h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 20px 0 30px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+#player-list li {
+  padding-bottom: 20px;
+}
+
+.budget {
+  background: #0d0d0d;
+  border-radius: 10px;
+  padding: 20px  12px;
+  margin-bottom: 14px;
+}
+/* palayer section end */
