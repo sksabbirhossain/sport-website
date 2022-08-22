@@ -77,7 +77,29 @@ li {
 .budget {
   background: #0d0d0d;
   border-radius: 10px;
-  padding: 20px  12px;
+  padding: 20px 12px;
   margin-bottom: 14px;
 }
 /* palayer section end */
+
+/* footer section start */
+.footer-wrapper {
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  border-top: 1px solid;
+  background-color: #0d0d0d;
+}
+.footer-text {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+/* footer section end */
